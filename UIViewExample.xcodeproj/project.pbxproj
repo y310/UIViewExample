@@ -21,6 +21,9 @@
 		4625B12218E1CE8800D37A08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625B10418E1CE8800D37A08 /* UIKit.framework */; };
 		4625B12A18E1CE8800D37A08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4625B12818E1CE8800D37A08 /* InfoPlist.strings */; };
 		4625B12C18E1CE8800D37A08 /* UIViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625B12B18E1CE8800D37A08 /* UIViewExampleTests.m */; };
+		4625B13718E1CEDE00D37A08 /* UVEView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625B13618E1CEDE00D37A08 /* UVEView.m */; };
+		4625B13918E1CF8900D37A08 /* UVEXIBView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4625B13818E1CF8900D37A08 /* UVEXIBView.xib */; };
+		4625B13C18E1CF9C00D37A08 /* UVEXIBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625B13B18E1CF9C00D37A08 /* UVEXIBView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		4625B12718E1CE8800D37A08 /* UIViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewExampleTests-Info.plist"; sourceTree = "<group>"; };
 		4625B12918E1CE8800D37A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4625B12B18E1CE8800D37A08 /* UIViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewExampleTests.m; sourceTree = "<group>"; };
+		4625B13518E1CEDE00D37A08 /* UVEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVEView.h; sourceTree = "<group>"; };
+		4625B13618E1CEDE00D37A08 /* UVEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVEView.m; sourceTree = "<group>"; };
+		4625B13818E1CF8900D37A08 /* UVEXIBView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UVEXIBView.xib; sourceTree = "<group>"; };
+		4625B13A18E1CF9C00D37A08 /* UVEXIBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVEXIBView.h; sourceTree = "<group>"; };
+		4625B13B18E1CF9C00D37A08 /* UVEXIBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVEXIBView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,11 @@
 				4625B11218E1CE8800D37A08 /* Main.storyboard */,
 				4625B11518E1CE8800D37A08 /* UVEViewController.h */,
 				4625B11618E1CE8800D37A08 /* UVEViewController.m */,
+				4625B13518E1CEDE00D37A08 /* UVEView.h */,
+				4625B13618E1CEDE00D37A08 /* UVEView.m */,
+				4625B13A18E1CF9C00D37A08 /* UVEXIBView.h */,
+				4625B13B18E1CF9C00D37A08 /* UVEXIBView.m */,
+				4625B13818E1CF8900D37A08 /* UVEXIBView.xib */,
 				4625B11818E1CE8800D37A08 /* Images.xcassets */,
 				4625B10718E1CE8800D37A08 /* Supporting Files */,
 			);
@@ -230,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4625B11918E1CE8800D37A08 /* Images.xcassets in Resources */,
+				4625B13918E1CF8900D37A08 /* UVEXIBView.xib in Resources */,
 				4625B10B18E1CE8800D37A08 /* InfoPlist.strings in Resources */,
 				4625B11418E1CE8800D37A08 /* Main.storyboard in Resources */,
 			);
@@ -250,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4625B13C18E1CF9C00D37A08 /* UVEXIBView.m in Sources */,
 				4625B10D18E1CE8800D37A08 /* main.m in Sources */,
 				4625B11718E1CE8800D37A08 /* UVEViewController.m in Sources */,
 				4625B11118E1CE8800D37A08 /* UVEAppDelegate.m in Sources */,
+				4625B13718E1CEDE00D37A08 /* UVEView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
